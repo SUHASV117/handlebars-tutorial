@@ -1,5 +1,28 @@
 $(function() {
 
+  // The List of annotation table data
+  var annotationData = {
+    allGuidelines: [
+      {
+        cpg: "Section 1",
+        description: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+      },
+      {
+        cpg: "Section 2",
+        description: "Contains Blood pressure measurement instructions, diagnosis and data requirement"
+      }
+    ]
+  };
+
+  var templateScript = $('#annotation-table').html();
+  var template = Handlebars.compile(templateScript);
+
+  Handlebars.registerPartial("description", $("#annotation-table").html());
+
+  $(".annotation-display").append(template(annotationData));
+
+
+
   // The List of Shoes
   var shoesData = {
     allShoes: [

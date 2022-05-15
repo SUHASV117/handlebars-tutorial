@@ -18,8 +18,26 @@
 
     <h2>Student Scores</h2>
     <ul class="student-score-results">
-
     </ul>
+
+    <h2>Annotation Table</h2>
+    <table class="annotation-display">
+      <tr>
+        <th>CPG code</th>
+        <th>Description</th>
+      </tr>
+    </table>
+
+
+    <script id="annotation-table" type="text/x-handlebars-template">
+      {{#each allGuidelines}}
+      <tr>
+        <td>{{cpg}}</td>
+        <td>{{description}}</td>
+      </tr>
+      {{/each}}
+    </script>
+
 
     <script id="shoe-template" type="text/x-handlebars-template">
     {{#each allShoes}}
@@ -53,6 +71,7 @@
     {{/studentScore}}
     </script>
 
+    
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
     <script src="javascripts/main.js"></script>
