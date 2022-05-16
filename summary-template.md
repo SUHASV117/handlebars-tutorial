@@ -1,22 +1,5 @@
 # <p align=center> **Implementation Summary of** <br> _2020 International Society of Hypertension <br> Global Hypertension Practice guidelines_</p>
 
-<!--
-|CPG Sections| CQL Code &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;| Description| References  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; |
-| ------------ | -------- | ----------- | ---------- |
-{{#each tableSummary.rows}}
-        {{#each cpgSection}}
-|<a href={{url}} target="_blank"><ins>{{label}}</ins></a><br/>|{{/each}}{{#each cqlCode}}|<a href={{url}} target="_blank"><ins>{{label}}</ins></a><br/>
-        {{/each}}
-        {{#each description}}
-        |<ins>{{text}}</ins>
-        {{/each}}
-        {{#each reference}}
-        |<a href={{url}} target="_blank"><ins>{{label}}</ins></a><br/>
-        {{/each}}
-{{/each}}
-
- -->
-
 <style>
 td{
     color:red;
@@ -58,13 +41,3 @@ th {
       </tr>
       {{/each}}
     </table>
-
-<!--
-
-|CPG Sections| CQL Code &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;| Description| References  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; |
-|------------|---------|------------|-----------|
-
-{{#each tableSummary.rows}}
-|{{#each cpgSection}}
-<a href={{url}} target="_blank"><ins>{{label}}</ins></a><br/> <a href={{url}} target="_blank"><ins>{{label}}</ins></a><br/> {{/each}}| | | |
- {{/each}} -->

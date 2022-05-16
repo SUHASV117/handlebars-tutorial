@@ -302,8 +302,6 @@ var summaryData = {
           },
       ]
     }
-
-    
   }
 
   fs = require('fs');
