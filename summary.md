@@ -51,155 +51,155 @@
 
  -->
 
-table {
-table-layout: fixed;
-width: 100%
+<style>
+td{
+    color:red;
+},
+th {
+    text-align:left
 }
-
-td {
-word-wrap: break-word;
-}
+</style>
 
 <table class="annotation-display">
       <tr>
         <th>CPG Sections</th>
         <th>CQL Code</th>
-        <th>Description</th>
+        <th>Description</thalign=>
         <th>References</th>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Section 2</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Section 2</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L45</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L45</u></a><br/>
         </td>
         <td>
           <p>Contains definitions and related actions for Grade 1 and 2 Hypertensions</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 3</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 4</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 3</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 4</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 3</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 3</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L413</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L4769</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L4781</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L413</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L4769</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L4781</u></a><br/>
         </td>
         <td>
           <p>Contains Blood pressure measurement instructions, diagnosis and data requirement</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Section 4</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Section 4</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L413</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L814</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L1217</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L1678</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L413</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L814</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L1217</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L1678</u></a><br/>
         </td>
         <td>
           <p>Contains Clinical Tests for Essential and Optimal settings</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 5</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Section 6</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 5</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Section 6</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L1678</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L1678</u></a><br/>
         </td>
         <td>
           <p>Contains Cardiovascular risks along with HMOD</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 7</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 7</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L1809</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L1809</u></a><br/>
         </td>
         <td>
           <p>Exacerbators and Inducers of Hypertension</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 8</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 8</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L413</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L413</u></a><br/>
         </td>
         <td>
           <p>Treatment of Hypertension</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 9</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 9</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L413</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L413</u></a><br/>
         </td>
         <td>
           <p>Common and Other Comorbidities and Complications of Hypertension</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
       <tr>
         <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Section 10</a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Section 10</u></a><br/>
         </td>
-        <td>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank">hypertension-cpg.cql#L8</a><br/>
-          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank">hypertension-cpg.cql#L413</a><br/>
+        <td width="25%">
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8 target="_blank"><u>hypertension-cpg.cql#L8</u></a><br/>
+          <a href=https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45 target="_blank"><u>hypertension-cpg.cql#L413</u></a><br/>
         </td>
         <td>
           <p>Specific Circumstances</p><br/>
         </td>
-        <td>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank">Reference 1</a><br/>
-          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank">Reference 2</a><br/>
+        <td width="15%">
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;1 target="_blank"><u>Reference 1</u></a><br/>
+          <a href=https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page&#x3D;3 target="_blank"><u>Reference 2</u></a><br/>
         </td>
       </tr>
     </table>

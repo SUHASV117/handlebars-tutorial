@@ -306,7 +306,6 @@ var summaryData = {
     
   }
 
-  
   fs = require('fs');
   const templatestr = fs.readFileSync('./summary-template.md', 'utf-8');
   const template = Handlebars.compile(templatestr);
