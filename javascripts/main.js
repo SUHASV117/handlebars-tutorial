@@ -1,15 +1,195 @@
 $(function() {
 
   // The List of annotation table data
+
+  var summaryData = {
+    tableSummary: {
+      rows:[
+        {
+          cpgSection: [
+            {
+              label: "Section 1",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+            },
+            {
+              label: "Section 2",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+            }
+          ],
+          cqlCode: [
+            {
+              label: "hypertension-cpg.cql#L8",
+              url: "https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8"
+            },
+            {
+              label: "hypertension-cpg.cql#L45",
+              url: "https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45"
+            }
+          ],
+          description: [
+            {
+              text: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+            },
+            {
+              text: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+            }
+          ],
+          reference: [
+            {
+              label: "Section 1",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+            },
+            {
+              label: "Section 2",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+            }
+          ],
+          
+        },
+        {
+          cpgSection: [
+            {
+              label: "Section 1",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+            },
+            {
+              label: "Section 2",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+            }
+          ],
+          cqlCode: [
+            {
+              label: "hypertension-cpg.cql#L8",
+              url: "https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8"
+            },
+            {
+              label: "hypertension-cpg.cql#L45",
+              url: "https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L45"
+            }
+          ],
+          description: [
+            {
+              text: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+            },
+            {
+              text: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+            }
+          ],
+          reference: [
+            {
+              label: "Section 1",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+            },
+            {
+              label: "Section 2",
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+            }
+          ],
+          
+        }
+      ]
+    }
+
+    
+  }
+
+
+  const Handlebars = require("handlebars");
+  const template = Handlebars.compile("Name: {{name}}");
+  console.log(template({ name: "Nils" }));
+
+
+
+
   var annotationData = {
     allGuidelines: [
       {
         cpg: "Section 1",
-        description: "Contains definitions and related actions for Grade 1 and 2 Hypertensions"
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=1",
+        cql: "hypertension-cpg.cql#L8",
+        cql_link: ["https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L8","https://github.com/wellopathy/fhir-india-core/blob/main/scripts/generate-aliases.ts#L213"],
+        description: "Contains definitions and related actions for Grade 1 and 2 Hypertensions",
+        reference: ["Reference 1"],
+        reference_link: ["https://pubmed.ncbi.nlm.nih.gov/30165516/", "https://pubmed.ncbi.nlm.nih.gov/29133354/", "https://pubmed.ncbi.nlm.nih.gov/30496105/", "https://pubmed.ncbi.nlm.nih.gov/27502908/"]
       },
+
       {
         cpg: "Section 2",
-        description: "Contains Blood pressure measurement instructions, diagnosis and data requirement"
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=3",
+        cql: ["hypertension-cpg.cql#L41"],
+        // cql: ["hypertension-cpg.cql#L8", "hypertension-cpg.cql#L413", "hypertension-cpg.cql#L4769", "hypertension-cpg.cql#L4781"],
+        cql_link: "",
+        description: "Contains definitions and related actions for Grade 1 and 2 Hypertensions",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 3",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=3",
+        cql: "hypertension-cpg.cql#L8",
+        cql_link: "",
+        description: "Contains Blood pressure measurement instructions, diagnosis and data requirement",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 4",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=5",
+        cql: "hypertension-cpg.cql#L8",
+        cql_link: "",
+        description: "Contanis Clinical Tests for Essential and Optimal settings",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 5",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=6",
+        description: "Contains Cardiovascular Risks along with HMOD",
+        cql: "hypertension-cpg.cql#L8",
+        cql_link: "",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 6",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=7",
+        description: "Contains Cardiovascular Risks along with HMOD",
+        cql: "hypertension-cpg.cql#L8",
+        cql_link:"",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 7",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=8",
+        description: "Exacerbators and Inducers of Hypertension",
+        cql: "hypertension-cpg.cql#L8",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 8",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=8",
+        description: "Treatment of Hypertension",
+        cql: "hypertension-cpg.cql#L8",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 9",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=11",
+        description: "Common and Other Comorbidities and Complications of Hypertension",
+        cql: "hypertension-cpg.cql#L8",
+        reference: "Reference 1",
+        reference_link: ""
+      },
+      {
+        cpg: "Section 10",
+        pdf_link: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026?cookieSet=1#page=13",
+        description: "Specific circumstances",
+        cql: "hypertension-cpg.cql#L8",
+        reference: "Reference 1",
+        reference_link: ""
       }
     ]
   };
@@ -19,7 +199,7 @@ $(function() {
 
   Handlebars.registerPartial("description", $("#annotation-table").html());
 
-  $(".annotation-display").append(template(annotationData));
+  $(".annotation-display").append(template(summaryData));
 
 
 
@@ -131,5 +311,14 @@ $(function() {
   var templateFour = Handlebars.compile(templateScriptFour);
 
   $('.student-score-results').append(templateFour(students));
+
+
+
+  // Handlebars.registerHelper("makeLink", function(text, url) {
+  //   text = Handlebars.Utils.escapeExpression(text);
+  //   url = Handlebars.Utils.escapeExpression(url);
+
+  //   var theLink = <a href=""
+  // });
 
 });
