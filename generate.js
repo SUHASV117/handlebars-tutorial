@@ -6,7 +6,8 @@ var summaryData = {
         {
           cpgSection: [
             {
-              label: "Section 1",
+              label: "Section 1", 
+              heading: "Introduction",
               url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
             },
             {
@@ -32,20 +33,24 @@ var summaryData = {
           reference: [
             {
               label: "Reference 1",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+              url: "https://pubmed.ncbi.nlm.nih.gov/30165516/"
             },
             {
               label: "Reference 2",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+              url: "https://pubmed.ncbi.nlm.nih.gov/29133354/"
             },
             {
               label: "Reference 3",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+              url: "https://pubmed.ncbi.nlm.nih.gov/30496105/"
             },
             {
               label: "Reference 4",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+              url: "https://pubmed.ncbi.nlm.nih.gov/27502908/"
             },
+            {
+              label: "Reference 5",
+              url: "https://pubmed.ncbi.nlm.nih.gov/27863813/"
+            }
           ],
         },
         {

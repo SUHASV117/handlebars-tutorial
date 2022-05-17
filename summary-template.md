@@ -1,19 +1,16 @@
 # <p align=center> **Implementation Summary of** <br> _2020 International Society of Hypertension <br> Global Hypertension Practice guidelines_</p>
 
 <style>
-td{
-    color:red;
-},
-th {
-    text-align:left
-}
+/* th {
+    text-align:center
+} */
 </style>
 
 <table class="annotation-display">
       <tr>
-        <th>CPG Sections</th>
-        <th>CQL Code</th>
-        <th>Description</thalign=>
+        <th style="text-align:center">CPG Sections</th>
+        <th style="text-align:center">CQL Code</th>
+        <th style="text-align:center">Description</thalign=>
         <th>References</th>
       </tr>
       {{#each tableSummary.rows}}
