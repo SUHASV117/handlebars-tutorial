@@ -57,7 +57,7 @@ var summaryData = {
           cpgSection: [
             {
               label: "Section 3",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
             }
           ],
           cqlCode: [
@@ -86,11 +86,11 @@ var summaryData = {
           reference: [
             {
               label: "Reference 1",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+              url: "https://pubmed.ncbi.nlm.nih.gov/30165516/"
             },
             {
               label: "Reference 2",
-              url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+              url: "https://pubmed.ncbi.nlm.nih.gov/29133354/"
             }
           ],
         },
@@ -98,7 +98,7 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 4",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=5"
                }
             ],
             cqlCode: [
@@ -131,11 +131,11 @@ var summaryData = {
             reference: [
               {
                 label: "Reference 1",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://pubmed.ncbi.nlm.nih.gov/29133354/"
               },
               {
                 label: "Reference 2",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+                url: "https://pubmed.ncbi.nlm.nih.gov/30165516/"
               }
             ],
             
@@ -144,11 +144,11 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 5",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=6"
               },
               {
                 label: "Section 6",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=3"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=7"
               },
             ],
             cqlCode: [
@@ -177,7 +177,7 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 7",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=8"
               }
             ],
             cqlCode: [
@@ -207,7 +207,7 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 8",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=8"
               },
             ],
             cqlCode: [
@@ -241,7 +241,7 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 9",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=11"
               }
             ],
             cqlCode: [
@@ -275,7 +275,7 @@ var summaryData = {
             cpgSection: [
               {
                 label: "Section 10",
-                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=1"
+                url: "https://www.ahajournals.org/doi/pdf/10.1161/HYPERTENSIONAHA.120.15026#page=13"
               },
             ],
             cqlCode: [

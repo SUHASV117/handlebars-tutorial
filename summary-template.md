@@ -1,4 +1,4 @@
-# <p align=center> **Implementation Summary of** <br> _2020 International Society of Hypertension <br> Global Hypertension Practice guidelines_</p>
+## <p align=center> **Implementation Summary of** <br> _2020 International Society of Hypertension <br> Global Hypertension Practice guidelines_</p>
 
 <style>
 /* th {
